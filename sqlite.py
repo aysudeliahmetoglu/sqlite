@@ -26,4 +26,4 @@ insert_value = """INSERT INTO users VALUES ('123','Aysu', 'Deliahmetoglu')"""
 # im.execute(create_table)
 im.execute(insert_value)
 vt.commit()              #In order to process the data we entered into the database
-              #closing the database
+vt.close()            #closing the database
